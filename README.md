@@ -2,27 +2,18 @@
 
 ## Overview
 This document describes the method for calculating the Proximity Index (PI),
-a measure quantifying divergence in visual exploration in . It compares gaze data
+a measure quantifying divergence in visual exploration in a data-driven manner. The method compares gaze patterns
 between a referent group and a comparison group, applicable in various research contexts.
 
 ## Method Description
-
-### Reference Gaze Pattern Generation
-- Generate referent gaze patterns using a probability density estimation
-  function on the gaze data of the referent group.
-- These patterns serve as a benchmark for comparison.
-
-### Proximity Index Calculation
-- Calculate the PI for each gaze data frame for individuals in the comparison group.
-- Compare gaze data points to the referent distribution for each frame.
-- Scale PI values from 0 to 1, where lower values indicate higher divergence.
+- The method first generates referent gaze patterns using a probability density estimation
+  function () on the gaze data of the referent group. These referent patterns serve as a benchmark for comparison. It then calculates the PI for each gaze data frame for individuals in the comparison group. PI values are scaled from 0 to 1, where lower values indicate higher divergence.
 
 ## Requirements
 - Matlab (any release)
 
 ## Input Data Format
   The function requires a 3D array input with the following dimensions: Gaze Coordinates (2D) X Number of Frames X Number of Subjects
-
 
 ## References
 
