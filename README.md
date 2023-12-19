@@ -14,6 +14,9 @@ between a referent group and a comparison group, applicable in various research 
 
 ## Input Data Format
   The function requires a 3D array input with the following dimensions: Gaze Coordinates (2D) X Number of Frames X Number of Subjects
+## Examples
+
+<img src="img/" width="100%" />
 
 ## References
 
