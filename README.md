@@ -2,7 +2,7 @@
 
 ## Overview
 This document describes the method for calculating the Proximity Index (PI),
-a measure quantifying divergence in visual exploration in a data-driven manner. The method compares gaze patterns
+an eye-tracking derived measure quantifying divergence in visual exploration in a data-driven manner. The method compares gaze patterns
 between a referent group and a comparison group, applicable in various research contexts.
 
 ## Method Description
