@@ -15,8 +15,10 @@ between a referent group and a comparison group, applicable in various research 
 ## Input Data Format
   The function requires a 3D array input with the following dimensions: Gaze Coordinates (2D) X Number of Frames X Number of Subjects
 ## Examples
+![Example Image](./img/Figure1.pdf)
+*Proximity Index method illustration. Referent gaze data distribution ("reference") was created using gaze coordinates from 51 TD males (aged 3.48±1.29 years old).
+Upper row: two example frames with gaze coordinates of TD children (blue dots) used to define the "reference" (delimited by contours) and gaze data from a three-year-old male with ASD (whose gaze coordinates are depicted as a red circle). Hotter contour color indicates the area of higher density of distribution of gaze in the TD group, meaning that a particular area was more appealing for a higher number of TD preschoolers for the given frame; the Proximity Index value for the three-year-old male with ASD for the frame on the left had a value of 0.39 and for the frame on the right a value of 0.  Lower row: Proximity Index values for the visual exploration of the three-year-old boy with ASD over the entire video with mean Proximity Index value indicated by the dashed red lines..*
 
-<img src="img/" width="100%" />
 
 ## References
 
