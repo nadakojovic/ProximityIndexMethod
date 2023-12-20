@@ -6,7 +6,7 @@ an eye-tracking derived measure quantifying divergence in visual exploration in 
 between a referent group and a comparison group, applicable in various research contexts.
 
 ## Method Description
-- The method first generates referent gaze patterns using a probability density estimation
+The method first generates referent gaze patterns using a probability density estimation
   function [(Botev et al., 2010)]( https://doi.org/10.1214/10-AOS799) on the gaze data of the referent group. These referent patterns then serve as a benchmark for comparison. It then calculates the PI for each gaze data frame for individuals in the comparison group. PI values are scaled from 0 to 1, where lower values indicate higher divergence.
 
 ## Requirements
