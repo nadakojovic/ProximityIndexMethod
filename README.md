@@ -13,7 +13,7 @@ The method first generates referent gaze patterns using a probability density es
 - Matlab (any release). The function *proximity_index.m* requires the [kde2d.m](https://www.mathworks.com/matlabcentral/fileexchange/17204-kernel-density-estimation) and the [contourdata.m](https://www.mathworks.com/matlabcentral/fileexchange/38863-extract-contour-data-from-contour-matrix-c) functions. 
 
 ## How to run
-  The function *proximity_index.m* requires a 3D array input with the following dimensions: Gaze Coordinates (2D) X Number of Frames X Number of Subjects. We provde an example script *calculate_PI.m*
+  The function *proximity_index.m* requires a 3D array input with the following dimensions: Gaze Coordinates (2D) X Number of Frames X Number of Subjects. We provide an example script *calculate_PI.m*
 ## Illustration
 ![Example Image](./img/Figure1.jpg)
 *Proximity Index method illustration. Referent gaze data distribution ("reference") was created using gaze coordinates from 51 TD males (aged 3.48±1.29 years old).
