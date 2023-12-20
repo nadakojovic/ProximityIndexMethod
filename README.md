@@ -10,7 +10,7 @@ The method first generates referent gaze patterns using a probability density es
   function [(Botev et al., 2010)]( https://doi.org/10.1214/10-AOS799) on the gaze data of the referent group. These referent patterns then serve as a benchmark for comparison. It then calculates the PI for each gaze data frame for individuals in the comparison group. PI values are scaled from 0 to 1, where lower values indicate higher divergence.
 
 ## Requirements
-- Matlab (any release). The function *proximity_index.m* requires the [kde2d.m](https://www.mathworks.com/matlabcentral/fileexchange/17204-kernel-density-estimation) and the [contourdata.m](https://www.mathworks.com/matlabcentral/fileexchange/38863-extract-contour-data-from-contour-matrix-c) functions. 
+ Matlab (any release). The function *proximity_index.m* calls the [kde2d.m](https://www.mathworks.com/matlabcentral/fileexchange/17204-kernel-density-estimation) and the [contourdata.m](https://www.mathworks.com/matlabcentral/fileexchange/38863-extract-contour-data-from-contour-matrix-c) functions. 
 
 ## How to run
   The function *proximity_index.m* requires a 3D array input with the following dimensions: Gaze Coordinates (2D) X Number of Frames X Number of Subjects. We provide an example script *calculate_PI.m*
